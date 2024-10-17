@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sudoku</h1>
+        <table id="sudoku-grid">
+            <!-- Row 1 -->
+            <tr>
+                <td><input type="text" maxlength="1" value="5" disabled></td>
+                <td><input type="text" maxlength="1" value="3" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="7" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+            </tr>
+            <!-- Row 2 -->
+            <tr>
+                <td><input type="text" maxlength="1" value="6" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="1" disabled></td>
+                <td><input type="text" maxlength="1" value="9" disabled></td>
+                <td><input type="text" maxlength="1" value="5" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+            </tr>
+            <!-- Row 3 -->
+            <tr>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="9" disabled></td>
+                <td><input type="text" maxlength="1" value="8" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="6" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+            </tr>
+            <!-- Row 4 -->
+            <tr>
+                <td><input type="text" maxlength="1" value="8" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="6" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="3" disabled></td>
+            </tr>
+            <!-- Row 5 -->
+            <tr>
+                <td><input type="text" maxlength="1" value="4" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="8" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="3" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="1" disabled></td>
+            </tr>
+            <!-- Row 6 -->
+            <tr>
+                <td><input type="text" maxlength="1" value="7" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="2" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="6" disabled></td>
+            </tr>
+            <!-- Row 7 -->
+            <tr>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="6" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="2" disabled></td>
+                <td><input type="text" maxlength="1" value="8" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+            </tr>
+            <!-- Row 8 -->
+            <tr>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="4" disabled></td>
+                <td><input type="text" maxlength="1" value="1" disabled></td>
+                <td><input type="text" maxlength="1" value="9" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="5" disabled></td>
+            </tr>
+            <!-- Row 9 -->
+            <tr>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="8" disabled></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1"></td>
+                <td><input type="text" maxlength="1" value="7" disabled></td>
+                <td><input type="text" maxlength="1" value="9" disabled></td>
+            </tr>
+        </table>
+
+        <div class="buttons">
+            <button onclick="checkSolution()">Check Solution</button>
+            <button onclick="resetGame()">Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
